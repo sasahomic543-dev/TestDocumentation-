@@ -1,0 +1,52 @@
+ {
+ "firstName" : "Aliaksandr",
+ "lastName" : "Khomich",
+ "hobbies" : ["football", "gym", "tableTennis"],
+ "primaryEducation" : [
+ {
+ "institution" : "KBGAK",
+ "speciaization" : "Organizer of production",
+ "graduation" : 2014
+ }
+ ],
+ "additionalEducation" : [
+ {
+ "institution" : "Belhard Academy",
+ "speciaization" : "QA basics",
+ "graduation" : 2025
+ },
+ {
+ "institution" : "Belhard Academy",
+ "speciaization" : "QA Professional",
+ "graduation" : 2026
+ }
+ ],
+ "certificates" :
+ [
+ {
+ "organization" : "Belhard Academy",
+ "speciaization" : "Testing Engineer Basic Level",
+ "year" : 2025
+ },
+ {
+ "organization" : "Belhard Academy",
+ "speciaization" : "Testing Engineer Professional level",
+ "year" : 2026
+ }
+ ],
+ "skills" : ["Test case", "Bug report","Functional testing"],
+ "tools" :["Postman", "World", "Sourcetree"],
+ "projects" : null,
+ "workExpirience" : null,
+ "location" : "Gomel",
+ "contacts" :[
+ {
+ "type" : "mail",
+ "value" : "sasahomic543@gmail.com"
+ },
+ {
+ "type" :"PhoneNumber",
+ "value" : "375255555555"
+ }
+ ],
+ }
