@@ -1,0 +1,34 @@
+Задание 11
+Найдите среднюю скорость ПК.
+SELECT AVG(speed) 
+FROM PC
+
+Задание 12
+Найдите среднюю скорость ПК-блокнотов, цена которых превышает 1000 дол.
+SELECT AVG(speed) AS avg_speed_mhz
+FROM Laptop
+WHERE price > 1000
+
+Задание 13
+Найдите среднюю скорость ПК, выпущенных производителем A.
+SELECT ROUND(AVG(pc.speed), 2) AS avg_speed
+FROM PC pc
+JOIN Product p ON pc.model = p.model
+WHERE p.maker = 'A'
+
+Задание14
+Найдите класс, имя и страну для кораблей из таблицы Ships, имеющих не менее 10 орудий
+SELECT s.class, s.name, c.country
+FROM Ships AS s
+JOIN Classes AS c
+  ON s.class = c.class
+WHERE c.numGuns >= 10
+
+Задание 15
+Найдите размеры жестких дисков, совпадающих у двух и более PC. Вывести: HD
+SELECT hd
+FROM PC
+GROUP BY hd
+HAVING COUNT(*) >= 2
+ORDER BY hd
+
